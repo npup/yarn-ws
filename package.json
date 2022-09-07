@@ -1,0 +1,20 @@
+{
+    "name": "yarn-ws",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.8.2",
+        "vite": "^3.1.0",
+        "@vitejs/plugin-react": "^2.1.0"
+    },
+    "scripts": {
+        "start": "yarn workspace app vite",
+        "build": "yarn workspace app vite build --outDir ./dist"
+    },
+    "private": true,
+    "workspaces": [
+        "app",
+        "lib-components"
+    ]
+}

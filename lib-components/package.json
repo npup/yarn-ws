@@ -1,0 +1,16 @@
+{
+  "name": "lib-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "css-to-go": "^1.3.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
